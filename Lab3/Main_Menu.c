@@ -5,13 +5,15 @@ int main() {
     int luaChon;
 
     do {
-        printf("\n========== MAIN MENU LAB 3 ==========\n");
-        printf("1. Tinh hoc luc sinh vien\n");
-        printf("2. Giai phuong trinh bac hai\n");
-        printf("3. Tinh tien dien hang thang\n");
-        printf("4. Thoat chuong trinh\n");
-        printf("=====================================\n");
-        printf("Nhap lua chon cua ban: ");
+      printf("+---------------------------------------------------+\n");
+      printf("|              MENU CHƯƠNG TRÌNH LAB 3              |\n");
+      printf("+---------------------------------------------------+\n");
+      printf("|  1. Chức năng tính học lực sinh viên              |\n");
+      printf("|  2. Chức năng giải phương trình bậc hai           |\n");
+      printf("|  3. Chức năng tính tiền điện tiêu thụ hàng tháng  |\n");
+      printf("|  4. Thoát chương trình                            |\n");
+      printf("+---------------------------------------------------+\n");
+      printf(">> Chọn chức năng của bạn (1-4): \n");
         scanf("%d", &luaChon);
 
         switch (luaChon) {
