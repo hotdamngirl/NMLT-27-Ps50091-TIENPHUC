@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/tinhoccoban/NMLT-27-Ps50091-TIENPHUC/VD",
-      "program": "d:/tinhoccoban/NMLT-27-Ps50091-TIENPHUC/VD/build/Debug/outDebug",
+      "cwd": "d:/tinhoccoban/NMLT-27-Ps50091-TIENPHUC/lab5",
+      "program": "d:/tinhoccoban/NMLT-27-Ps50091-TIENPHUC/lab5/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
