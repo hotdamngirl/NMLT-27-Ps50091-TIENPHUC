@@ -132,11 +132,7 @@ void chucNang4()
 
 const char *phanLoaiTamGiac(float a, float b, float c)
 {
-    // Tam giác đều: a == b và b == c.
-    // Tam giác vuông: a^2 + b^2 == c^2 hoặc a^2 + c^2 == b^2 hoặc b^2 + c^2 == a^2.
-    // Tam giác cân: a == b hoặc a == c hoặc b == c.
-    // Tam giác vuông cân: Vừa thỏa mãn điều kiện Vuông vừa thỏa mãn Cân.
-    // Tam giác thường: Các trường hợp còn lại.
+   
 
     if (a + b > c && a + c > b && b + c > a && a > 0 && b > 0 && c > 0) //&& a-b < c && a-c < b && b-c < a
     {
